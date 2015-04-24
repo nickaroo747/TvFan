@@ -1,0 +1,148 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+.flash {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+html {
+     background-image: url("https://photos-3.dropbox.com/t/2/AACF1zmt_6I6FcedvMIJhpMn6xetw-FNL5OoZRVEk1ZshQ/12/410457653/jpeg/32x32/3/_/1/2/background.jpg/CLWs3MMBIAEgAiADKAE/oXbxjnFEl3OdKr8menlGYrcvjsMsTI9M_rfUiI2XNs8?size=1024x768");
+ }
+
+ body {
+   background: none;
+   color: white;
+   font-family: arial;
+   font-size: 16pt;
+ }
+
+ input, button, select, textarea {
+   color: black;
+ }
+
+ .topics{
+    width: 600px;
+    margin: 0 auto;
+ }
+
+ h1 {
+  color: #fff;
+  padding-left: 0px;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.titles{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.convtopic{
+  text-align: left;
+}
+.topicbox{
+  background-color: rgba(0, 0, 0, .7);
+  width: 600px;
+  height: 225px;
+  margin: 0 auto;
+  padding:25px;
+  border-radius: 10px;
+}
+
+p {
+  padding: 50px;
+}
+
+.bg-danger {
+    margin-top: 25px;
+    background-color: #2371B7;
+}
+
+table{
+  margin: 0 auto;
+}
+
+.TopicTable{
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 175px;
+}
+
+ul{
+  padding: 20px;
+}
+
+.button-submit{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.distop{
+  text-align: center;
+}
+
+.formbox{
+  text-align: center;
+}
+
+.commentreview{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 15pt;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.commentbox{
+  background-color: rgba(5, 5, 5, .6);
+  width: 600px;
+  height: 100px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 1px;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-size: 10pt;
+}
+
+h3, .h3 {
+  font-size: 10pt;
+}
+
+
+
+
+
+
+
