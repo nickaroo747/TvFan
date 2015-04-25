@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "movies#index"
 
   get "users" => "movies#index"
   get "users/:id" => "users#show", as: :user
