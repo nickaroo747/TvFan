@@ -19,21 +19,50 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+
+
 .flash {
   padding: 15px;
   border-radius: 10px;
   margin: 5px;
 }
 
-html {
-     background-image: url("https://photos-3.dropbox.com/t/2/AACF1zmt_6I6FcedvMIJhpMn6xetw-FNL5OoZRVEk1ZshQ/12/410457653/jpeg/32x32/3/_/1/2/background.jpg/CLWs3MMBIAEgAiADKAE/oXbxjnFEl3OdKr8menlGYrcvjsMsTI9M_rfUiI2XNs8?size=1024x768");
- }
+// html {
+//      background-image: url("https://photos-3.dropbox.com/t/2/AACF1zmt_6I6FcedvMIJhpMn6xetw-FNL5OoZRVEk1ZshQ/12/410457653/jpeg/32x32/3/_/1/2/background.jpg/CLWs3MMBIAEgAiADKAE/oXbxjnFEl3OdKr8menlGYrcvjsMsTI9M_rfUiI2XNs8?size=1024x768");
+//  }
+
+html{
+  background: black;
+
+}
 
  body {
-   background: none;
    color: white;
    font-family: arial;
    font-size: 16pt;
+   text-shadow: 0px 2px 3px #000;
+ }
+
+
+
+ .videoyou{
+   z-index: -10;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   min-width: 100%;
+   min-height: 100%;
+   // background: url (assets/thrones.mp4)
+   background-size: cover;
+ }
+
+ .controls{
+  display: none;
+ }
+
+ .sidedock{
+  display: none;
  }
 
  input, button, select, textarea {
@@ -73,7 +102,7 @@ html {
 }
 
 p {
-  padding: 50px;
+
 }
 
 .bg-danger {
@@ -140,7 +169,50 @@ h3, .h3 {
   font-size: 10pt;
 }
 
+.topbar{
+  height: 80px;
+  width: 100%;
+  z-index: 5;
+  background-color: rgba(1, 0, 0, .4);
+  margin: 0px;
+  padding-top: 23px;
+  padding-left: 21px;
+}
 
+.postedtopics{
+  font-size: 20pt;
+  margin-right: 320px;
+}
+
+.postbox{
+  font-size: 20pt;
+  margin-right: 320px;
+  width: 600px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+    background-color: rgba(0, 0, 0, .8);
+  width: 600px;
+}
+
+.postedtopics {
+  font-size: 20pt;
+  margin-right: 337px;
+  margin-bottom: 50px;
+  }
+
+  td, th {
+    padding: 6px;
+    text-transform: uppercase;
+    font-size: 8pt;
+  }
+
+  body{
+    background-color: rgba(0,0,0,0.1);
+  }
 
 
 

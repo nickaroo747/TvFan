@@ -1,14 +1,18 @@
-<div class ="TopicTable"><table>
+<html>
+  <div class ="TopicTable"><table>
   <body>
+
+
     <% @movies.each do |movie| %>
       <tr>
-
-        <td><%= movie.title %></td>
+        <div class="postbox"><br>
+        <td><div class="postedtopics"><%= movie.title %></div></td>
         <td><%= link_to 'Show', movie_path(movie) %>      </td>
         <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
         <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Remove this topic?' } %></td>
-      </tr>
+      </tr></div></div>
     <% end %>
+
   </body>
 </table><hr>
 
@@ -25,5 +29,6 @@
 <% end %>
 
 </div>
+</html>
 
 
