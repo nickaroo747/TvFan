@@ -5,10 +5,12 @@ Rails.application.configure do
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
-  # your application in memory, allowing both threaded web servers
+  # your application in memory, alconfig.assets.compile = truelowing both threaded web servers
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
+  config.serve_static_assets = true
+  config.assets.compile = true
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
