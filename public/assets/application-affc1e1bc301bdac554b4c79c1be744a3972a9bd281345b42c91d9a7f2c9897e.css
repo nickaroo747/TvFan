@@ -1,6 +1,10 @@
 /* line 1, /Users/nicholasreidmitchell/Desktop/TheBigShow/tvfanatic/tvfan/app/assets/stylesheets/nicksheet.css.scss */
-body {
-  background-image: url("/images/background.jpg");
+html{
+   background: url(<%= asset_path 'assets/images/background.jpg'%>) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 /* line 5, /Users/nicholasreidmitchell/Desktop/TheBigShow/tvfanatic/tvfan/app/assets/stylesheets/nicksheet.css.scss */
@@ -8,6 +12,7 @@ h1 {
   color: #fff;
   padding-left: 25px;
 }
+
 
 /* line 10, /Users/nicholasreidmitchell/Desktop/TheBigShow/tvfanatic/tvfan/app/assets/stylesheets/nicksheet.css.scss */
 .headerss {
@@ -8632,8 +8637,12 @@ button.close {
 }
 
 /* line 36, /Users/nicholasreidmitchell/Desktop/TheBigShow/tvfanatic/tvfan/app/assets/stylesheets/application.scss */
-html {
-  background: black;
+html{
+   background: url(<%= asset_path 'assets/images/background.jpg'%>) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 /* line 42, /Users/nicholasreidmitchell/Desktop/TheBigShow/tvfanatic/tvfan/app/assets/stylesheets/application.scss */
@@ -8645,15 +8654,7 @@ body {
 }
 
 /* line 51, /Users/nicholasreidmitchell/Desktop/TheBigShow/tvfanatic/tvfan/app/assets/stylesheets/application.scss */
-#videoyou {
-  z-index: -10;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-}
+
 
 /* line 62, /Users/nicholasreidmitchell/Desktop/TheBigShow/tvfanatic/tvfan/app/assets/stylesheets/application.scss */
 .controls {

@@ -35,37 +35,6 @@
 
     <%= yield %>
 
-<!--     <video class="videoyou" poster="/assets/gt.jpg" <source src="/assets/thrones.mp4" type="video/mp4" autoplay> -->
-
-
-  <!--   <video class="videoyou" autoplay >
-      <source src="/assets/thrones.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
- -->
-    <video id="videoyou" class="video-js vjs-default-skin" 
-     preload="auto" autoplay poster="/assets/gt.jpg"
-     data-setup='{}'>
-      <source src="/assets/thrones.mp4" type='video/mp4'>
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a web browser
-        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-      </p>
-    </video>
-    <script type="text/javascript">
-    var player = videojs('videoyou', { /* Options */ }, function() {
-      console.log('Good to go!');
-
-      this.play(); // if you don't trust autoplay for some reason
-
-      // How about an event listener?
-      this.on('ended', function() {
-        console.log('awww...over so soon?');
-      });
-    });
-    </script>
-
-
 
 </body>
 
